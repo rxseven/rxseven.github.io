@@ -11,3 +11,7 @@ Thank you for stopping by! 😅
 ## Acknowledgements
 
 [rxseven.github.io](https://rxseven.github.io) is an official rxseven's GitHub site built and maintained by [Theerawat Pongsupawat](https://www.linkedin.com/in/pongsupawat/), frontend developer from Chiang Mai, Thailand.
+
+## Credits
+
+[rxseven.github.io](https://rxseven.github.io) was bootstrapped with [HTML5 Boilerplate](https://html5boilerplate.com) and [Bootstrap](https://getbootstrap.com).
