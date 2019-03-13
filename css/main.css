@@ -65,6 +65,10 @@ body {
   width: 135px;
 }
 
+.table-end {
+  margin-bottom: 0;
+}
+
 @media (min-width: 480px) {
   .table-list tbody tr {
     display: table-row;
@@ -80,8 +84,4 @@ body {
     display: table-cell;
     padding: 0.2rem 0;
   }
-}
-
-.table-end {
-  margin-bottom: 0;
 }
