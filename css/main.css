@@ -81,3 +81,7 @@ body {
     padding: 0.2rem 0;
   }
 }
+
+.table-end {
+  margin-bottom: 0;
+}
