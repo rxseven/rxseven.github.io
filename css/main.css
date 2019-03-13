@@ -38,9 +38,3 @@ body {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-
-.table-link th {
-  font-weight: normal;
-  min-width: 130px;
-  padding-right: 8px;
-}
