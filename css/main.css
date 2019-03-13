@@ -1,0 +1,40 @@
+body {
+  font-size: 14px;
+}
+
+.main {
+  padding: 1.25rem 0;
+}
+
+.info {
+  margin-bottom: 1.25rem;
+}
+
+.username {
+  color: #007bff;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+.location {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+}
+
+.table-link th {
+  font-weight: normal;
+  min-width: 130px;
+  padding-right: 8px;
+}
