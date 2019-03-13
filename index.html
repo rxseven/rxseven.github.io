@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>rxseven</title>
-    <meta name="description" content="" />
+    <meta name="description" content="Motivated frontend developer passionate about creating elegant interactive UI and web apps with well-structured & designed using React." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="manifest" href="site.webmanifest" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
 
     <link
       rel="stylesheet"
@@ -30,8 +30,8 @@
     <![endif]-->
 
     <div class="container">
-      <div class="row">
-        <div class="col">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
           <main class="main">
             <div class="info">
               <h1 class="username">Theerawat Pongsupawat</h1>
@@ -62,10 +62,13 @@
               </li>
             </ul>
             <hr />
-            <p>
-              The following are some of the recent demo projects I have
-              published and can be shared publicly:
-            </p>
+            <div class="portfolio">
+              <h2 class="headline">Demo Projects</h2>
+              <p>
+                The following are some of the recent demo projects I have
+                published and can be shared publicly:
+              </p>
+            </div>
             <div class="card mb-3">
               <div class="card-header">Gyararī</div>
               <div class="card-body">
@@ -81,10 +84,31 @@
                   upload, view, and organize your favorite photos in just a few
                   clicks.
                 </p>
-                <table class="table-link">
+                <table class="table table-list table-borderless table-end">
                   <tbody>
                     <tr>
-                      <th>Live URL</th>
+                      <th scope="col">Type</th>
+                      <td>Single Page Application & REST API</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Project size</th>
+                      <td>Extra small</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Time spent</th>
+                      <td>10 days</td>
+                    </tr>
+                    <tr class="rowspan">
+                      <th rowspan="2" scope="col">Technologies</th>
+                      <td>
+                        React, Redux, Immutable, Sass, CSS modules, Flow, Docker
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Node, Express, Passport, MongoDB</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Live URL</th>
                       <td>
                         <a
                           href="https://gyararii.herokuapp.com"
@@ -95,7 +119,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>Component library</th>
+                      <th scope="col">Component library</th>
                       <td>
                         <a
                           href="https://gyararii.netlify.com"
@@ -105,8 +129,8 @@
                         >
                       </td>
                     </tr>
-                    <tr>
-                      <th>Resources</th>
+                    <tr class="rowspan">
+                      <th rowspan="2" scope="col">Resources</th>
                       <td>
                         <a
                           href="https://github.com/rxseven/gyararii"
@@ -117,7 +141,6 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>&nbsp;</th>
                       <td>
                         <a
                           href="https://github.com/rxseven/gyararii-api"
@@ -146,10 +169,31 @@
                   ease. It uses data from Fixer, the touchstone foreign exchange
                   (Forex) rates compiled from leading market data contributors.
                 </p>
-                <table class="table-link">
+                <table class="table table-list table-borderless table-end">
                   <tbody>
                     <tr>
-                      <th>Live URL</th>
+                      <th scope="col">Type</th>
+                      <td>Single Page Application & REST API</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Project size</th>
+                      <td>Extra small</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Time spent</th>
+                      <td>10 days</td>
+                    </tr>
+                    <tr class="rowspan">
+                      <th rowspan="2" scope="col">Technologies</th>
+                      <td>
+                        React, PropTypes, Syled Components, Sass, CSS modules
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Node, Express, TypeScript</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Live URL</th>
                       <td>
                         <a
                           href="https://tsuuka.herokuapp.com"
@@ -160,7 +204,7 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>Component library</th>
+                      <th scope="col">Component library</th>
                       <td>
                         <a
                           href="https://tsuuka.netlify.com"
@@ -170,8 +214,8 @@
                         >
                       </td>
                     </tr>
-                    <tr>
-                      <th>Resources</th>
+                    <tr class="rowspan">
+                      <th rowspan="2" scope="col">Resources</th>
                       <td>
                         <a
                           href="https://github.com/rxseven/tsuuka"
@@ -182,7 +226,6 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>&nbsp;</th>
                       <td>
                         <a
                           href="https://github.com/rxseven/tsuuka-api"
@@ -197,23 +240,44 @@
               </div>
               <div class="card-footer">Latest updated: March, 2019</div>
             </div>
-            <div class="card">
+            <div class="card mb-3">
               <div class="card-header">Onigiri</div>
               <div class="card-body">
                 <p class="card-text">
-                  Onigiri is a React & Redux app for collecting and organizing
-                  surveys.
+                  <strong>Onigiri</strong> is a React & Redux app for collecting
+                  and organizing surveys.
                 </p>
                 <p class="card-text">
-                  With Onigiri, you can create and analyze surveys right in your
-                  pocket or on your personal laptop —no special software
-                  required. You get results as they come in and, you can
-                  summarize survey results at a glance with graphs.
+                  With <strong>Onigiri</strong>, you can create and analyze
+                  surveys right in your pocket or on your personal laptop —no
+                  special software required. You get results as they come in
+                  and, you can summarize survey results at a glance with graphs.
                 </p>
-                <table class="table-link">
+                <table class="table table-list table-borderless table-end">
                   <tbody>
                     <tr>
-                      <th>Live URL</th>
+                      <th scope="col">Type</th>
+                      <td>Single Page Application & REST API</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Project size</th>
+                      <td>Small</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Time spent</th>
+                      <td>45 - 60 days</td>
+                    </tr>
+                    <tr class="rowspan">
+                      <th rowspan="2" scope="col">Technologies</th>
+                      <td>
+                        React, Redux, Immutable, Sass, CSS modules, Flow, Docker
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Node, Express, Passport, MongoDB</td>
+                    </tr>
+                    <tr>
+                      <th scope="col">Live URL</th>
                       <td>
                         <a
                           href="https://onigiri-webapp.herokuapp.com"
@@ -223,8 +287,8 @@
                         >
                       </td>
                     </tr>
-                    <tr>
-                      <th>Resources</th>
+                    <tr class="rowspan">
+                      <th rowspan="2" scope="col">Resources</th>
                       <td>
                         <a
                           href="https://github.com/rxseven/onigiri-webapp"
@@ -235,7 +299,6 @@
                       </td>
                     </tr>
                     <tr>
-                      <th>&nbsp;</th>
                       <td>
                         <a
                           href="https://github.com/rxseven/onigiri-api"
@@ -249,6 +312,28 @@
                 </table>
               </div>
               <div class="card-footer">Latest updated: November, 2018</div>
+            </div>
+            <div class="card">
+              <div class="card-header">Lisenses</div>
+              <div class="card-body">
+                <p class="card-text">
+                  The contents of all demo projects themselves are licensed
+                  under the
+                  <a
+                    href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                    target="_blank"
+                    title="CC BY-NC-ND 4.0"
+                    >Creative Commons Attribution-NonCommercial-NoDerivatives
+                    4.0 International license</a
+                  >, and the underlying source code is licensed under the
+                  <a
+                    href="https://www.gnu.org/licenses/agpl-3.0"
+                    target="_blank"
+                    title="GNU AGPLv3"
+                    >GNU AGPLv3 license</a
+                  >.
+                </p>
+              </div>
             </div>
           </main>
         </div>
