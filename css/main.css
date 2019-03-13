@@ -1,5 +1,6 @@
 body {
   font-size: 14px;
+  min-width: 320px;
 }
 
 .main {
@@ -33,8 +34,54 @@ body {
   padding: 0;
 }
 
-.table-link th {
-  font-weight: normal;
-  min-width: 130px;
-  padding-right: 8px;
+.portfolio .headline {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.table-list tbody tr,
+.table-list tbody tr th,
+.table-list tbody tr td {
+  display: block;
+}
+
+.table-list tbody tr.rowspan {
+  margin-bottom: 0.15rem;
+}
+
+.table-list tbody tr:not(.rowspan):not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.table-list tbody tr th,
+.table-list tbody tr td {
+  padding: 0;
+}
+
+.table-list tbody tr th {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  min-width: 135px;
+  width: 135px;
+}
+
+@media (min-width: 480px) {
+  .table-list tbody tr {
+    display: table-row;
+    margin-bottom: 0;
+  }
+
+  .table-list tbody tr th {
+    font-weight: normal;
+  }
+
+  .table-list tbody tr th,
+  .table-list tbody tr td {
+    display: table-cell;
+    padding: 0.2rem 0;
+  }
+}
+
+.table-end {
+  margin-bottom: 0;
 }
