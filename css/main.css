@@ -32,3 +32,9 @@ body {
   list-style: none;
   padding: 0;
 }
+
+.table-link th {
+  font-weight: normal;
+  min-width: 130px;
+  padding-right: 8px;
+}
