@@ -48,296 +48,436 @@
                 using React.
               </p>
             </div>
-            <ul class="contact">
-              <li><a href="tel:+66838658732">+66 838 658 732</a></li>
-              <li>
-                <a href="mailto:t.pongsupawat@gmail.com"
-                  >t.pongsupawat@gmail.com</a
+
+            <!-- Tabbed navigation -->
+            <ul class="nav nav-tabs mb-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="project-tab"
+                  data-toggle="tab"
+                  href="#project"
+                  role="tab"
+                  aria-controls="project"
+                  aria-selected="true"
+                  >Projects</a
                 >
               </li>
-              <li>
+              <li class="nav-item">
                 <a
-                  href="https://www.linkedin.com/in/pongsupawat"
-                  target="_blank"
-                  title="LinkedIn profile"
-                  >linkedin.com/in/pongsupawat</a
+                  class="nav-link"
+                  id="profile-tab"
+                  data-toggle="tab"
+                  href="#profile"
+                  role="tab"
+                  aria-controls="profile"
+                  aria-selected="false"
+                  >Profile</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="contact-tab"
+                  data-toggle="tab"
+                  href="#contact"
+                  role="tab"
+                  aria-controls="contact"
+                  aria-selected="false"
+                  >Contact</a
                 >
               </li>
             </ul>
-            <hr />
-            <div class="portfolio">
-              <h2 class="headline">Demo Projects</h2>
-              <p>
-                The following are some of the recent demo projects I have
-                published and can be shared publicly:
-              </p>
-            </div>
-            <div class="card mb-3">
-              <div class="card-header">Gyararī</div>
-              <div class="card-body">
-                <p class="card-text">
-                  <strong>Gyararī</strong> is a simple React app for collecting
-                  photos. It was built from scratch using only React and
-                  PropTypes. No complex state management, static type checking,
-                  and UI library needed.
+            <!-- /Tabbed navigation -->
+
+            <!-- Tabbed content -->
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="project"
+                role="tabpanel"
+                aria-labelledby="project-tab"
+              >
+                <p>
+                  The following are some of the recent demo projects I have
+                  published and can be shared publicly:
                 </p>
-                <p class="card-text">
-                  With <strong>Gyararī</strong>, you can collect and view photos
-                  right in your pocket or on your desktop. You can simply
-                  upload, view, and organize your favorite photos in just a few
-                  clicks.
+                <div class="card mb-3">
+                  <div class="card-header">Gyararī</div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      <strong>Gyararī</strong> is a simple React app for
+                      collecting photos. It was built from scratch using only
+                      React and PropTypes. No complex state management, static
+                      type checking, and UI library needed.
+                    </p>
+                    <p class="card-text">
+                      With <strong>Gyararī</strong>, you can collect and view
+                      photos right in your pocket or on your desktop. You can
+                      simply upload, view, and organize your favorite photos in
+                      just a few clicks.
+                    </p>
+                    <table class="table table-list table-borderless table-end">
+                      <tbody>
+                        <tr>
+                          <th scope="col">Type</th>
+                          <td>Single Page Application & REST API</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Project size</th>
+                          <td>Extra small</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Time spent</th>
+                          <td>10 days</td>
+                        </tr>
+                        <tr class="rowspan">
+                          <th rowspan="2" scope="col">Technologies</th>
+                          <td>
+                            React, Redux, Immutable, Sass, CSS modules, Flow,
+                            Docker
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Node, Express, Passport, MongoDB</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Live URL</th>
+                          <td>
+                            <a
+                              href="https://gyararii.herokuapp.com"
+                              target="_blank"
+                              title="Gyararī"
+                              >https://gyararii.herokuapp.com</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Component library</th>
+                          <td>
+                            <a
+                              href="https://gyararii.netlify.com"
+                              target="_blank"
+                              title="Storybook for Gyararī"
+                              >https://gyararii.netlify.com</a
+                            >
+                          </td>
+                        </tr>
+                        <tr class="rowspan">
+                          <th rowspan="2" scope="col">Resources</th>
+                          <td>
+                            <a
+                              href="https://github.com/rxseven/gyararii"
+                              target="_blank"
+                              title="GitHub repository for Gyararī"
+                              >https://github.com/rxseven/gyararii</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              href="https://github.com/rxseven/gyararii-api"
+                              target="_blank"
+                              title="GitHub repository for Gyararī API"
+                              >https://github.com/rxseven/gyararii-api</a
+                            >
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="card-footer">Latest updated: March, 2019</div>
+                </div>
+                <div class="card mb-3">
+                  <div class="card-header">Tsūka</div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      <strong>Tsūka</strong> is an extremely simple React app
+                      for converting currencies. It was built from scratch using
+                      only React and PropTypes. No complex state management,
+                      static type checking, and UI library needed.
+                    </p>
+                    <p class="card-text">
+                      <strong>Tsūka</strong> allows you to convert currencies
+                      with ease. It uses data from Fixer, the touchstone foreign
+                      exchange (Forex) rates compiled from leading market data
+                      contributors.
+                    </p>
+                    <table class="table table-list table-borderless table-end">
+                      <tbody>
+                        <tr>
+                          <th scope="col">Type</th>
+                          <td>Single Page Application & REST API</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Project size</th>
+                          <td>Extra small</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Time spent</th>
+                          <td>10 days</td>
+                        </tr>
+                        <tr class="rowspan">
+                          <th rowspan="2" scope="col">Technologies</th>
+                          <td>
+                            React, PropTypes, Syled Components, Sass, CSS
+                            modules
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Node, Express, TypeScript</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Live URL</th>
+                          <td>
+                            <a
+                              href="https://tsuuka.herokuapp.com"
+                              target="_blank"
+                              title="Tsūka"
+                              >https://tsuuka.herokuapp.com</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Component library</th>
+                          <td>
+                            <a
+                              href="https://tsuuka.netlify.com"
+                              target="_blank"
+                              title="Storybook for Tsūka"
+                              >https://tsuuka.netlify.com</a
+                            >
+                          </td>
+                        </tr>
+                        <tr class="rowspan">
+                          <th rowspan="2" scope="col">Resources</th>
+                          <td>
+                            <a
+                              href="https://github.com/rxseven/tsuuka"
+                              target="_blank"
+                              title="GitHub repository for Tsūka"
+                              >https://github.com/rxseven/tsuuka</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              href="https://github.com/rxseven/tsuuka-api"
+                              target="_blank"
+                              title="GitHub repository for Tsūka API"
+                              >https://github.com/rxseven/tsuuka-api</a
+                            >
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="card-footer">Latest updated: March, 2019</div>
+                </div>
+                <div class="card mb-3">
+                  <div class="card-header">Onigiri</div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      <strong>Onigiri</strong> is a React & Redux app for
+                      collecting and organizing surveys.
+                    </p>
+                    <p class="card-text">
+                      With <strong>Onigiri</strong>, you can create and analyze
+                      surveys right in your pocket or on your personal laptop
+                      —no special software required. You get results as they
+                      come in and, you can summarize survey results at a glance
+                      with graphs.
+                    </p>
+                    <table class="table table-list table-borderless table-end">
+                      <tbody>
+                        <tr>
+                          <th scope="col">Type</th>
+                          <td>Single Page Application & REST API</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Project size</th>
+                          <td>Small</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Time spent</th>
+                          <td>45 - 60 days</td>
+                        </tr>
+                        <tr class="rowspan">
+                          <th rowspan="2" scope="col">Technologies</th>
+                          <td>
+                            React, Redux, Immutable, Sass, CSS modules, Flow,
+                            Docker
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Node, Express, Passport, MongoDB</td>
+                        </tr>
+                        <tr>
+                          <th scope="col">Live URL</th>
+                          <td>
+                            <a
+                              href="https://onigiri-webapp.herokuapp.com"
+                              target="_blank"
+                              title="Onigiri"
+                              >https://onigiri-webapp.herokuapp.com</a
+                            >
+                          </td>
+                        </tr>
+                        <tr class="rowspan">
+                          <th rowspan="2" scope="col">Resources</th>
+                          <td>
+                            <a
+                              href="https://github.com/rxseven/onigiri-webapp"
+                              target="_blank"
+                              title="GitHub repository for Onigiri"
+                              >https://github.com/rxseven/onigiri-webapp</a
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <a
+                              href="https://github.com/rxseven/onigiri-api"
+                              target="_blank"
+                              title="GitHub repository for Onigiri API"
+                              >https://github.com/rxseven/onigiri-api</a
+                            >
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="card-footer">Latest updated: November, 2018</div>
+                </div>
+                <div class="card">
+                  <div class="card-header">Licenses</div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      The contents of all demo projects themselves are licensed
+                      under the
+                      <a
+                        href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                        target="_blank"
+                        title="CC BY-NC-ND 4.0"
+                        >Creative Commons
+                        Attribution-NonCommercial-NoDerivatives 4.0
+                        International license</a
+                      >, and the underlying source code is licensed under the
+                      <a
+                        href="https://www.gnu.org/licenses/agpl-3.0"
+                        target="_blank"
+                        title="GNU AGPLv3"
+                        >GNU AGPLv3 license</a
+                      >.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <h3 class="tab-headline">Key skills:</h3>
+                <ul>
+                  <li>
+                    Proficient in frontend development using HTML5, CSS3, and
+                    JavaScript (ES6).
+                  </li>
+                  <li>
+                    Experience with developing interactive UI using React,
+                    Redux, Styled Components, Storybook.
+                  </li>
+                  <li>
+                    Experience with cross-browser compatibility, browser
+                    rendering, and performance improvement.
+                  </li>
+                  <li>Familiarity with REST API, Node, Express, MongoDB.</li>
+                  <li>
+                    Familiarity with development workflow, such as automate
+                    tests, type checking, Git, CI/CD.
+                  </li>
+                  <li>
+                    Familiarity with build and DevOps tools, such as Webpack,
+                    Babel, Docker, GitHub, Travis CI.
+                  </li>
+                </ul>
+                <h3 class="tab-headline">Upcoming skills:</h3>
+                <ul>
+                  <li>Server side rendering (SSR) with Next.js</li>
+                  <li>
+                    Local state management using GraphQL and Apollo Client
+                  </li>
+                </ul>
+                <hr />
+                <p class="meta">
+                  <small>Latest updated on March 14, 2019</small>
                 </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
                 <table class="table table-list table-borderless table-end">
                   <tbody>
                     <tr>
-                      <th scope="col">Type</th>
-                      <td>Single Page Application & REST API</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Project size</th>
-                      <td>Extra small</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Time spent</th>
-                      <td>10 days</td>
-                    </tr>
-                    <tr class="rowspan">
-                      <th rowspan="2" scope="col">Technologies</th>
+                      <th scope="col">Mobile</th>
                       <td>
-                        React, Redux, Immutable, Sass, CSS modules, Flow, Docker
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Node, Express, Passport, MongoDB</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Live URL</th>
-                      <td>
-                        <a
-                          href="https://gyararii.herokuapp.com"
-                          target="_blank"
-                          title="Gyararī"
-                          >https://gyararii.herokuapp.com</a
+                        <a href="tel:+66838658732" title="Give me a call"
+                          >66 838 658 732</a
                         >
                       </td>
                     </tr>
                     <tr>
-                      <th scope="col">Component library</th>
+                      <th scope="col">Email &amp; Hangouts</th>
                       <td>
                         <a
-                          href="https://gyararii.netlify.com"
-                          target="_blank"
-                          title="Storybook for Gyararī"
-                          >https://gyararii.netlify.com</a
-                        >
-                      </td>
-                    </tr>
-                    <tr class="rowspan">
-                      <th rowspan="2" scope="col">Resources</th>
-                      <td>
-                        <a
-                          href="https://github.com/rxseven/gyararii"
-                          target="_blank"
-                          title="GitHub repository for Gyararī"
-                          >https://github.com/rxseven/gyararii</a
+                          href="mailto:t.pongsupawat@gmail.com"
+                          title="Send me a message"
+                          >t.pongsupawat@gmail.com</a
                         >
                       </td>
                     </tr>
                     <tr>
+                      <th scope="col">Skype</th>
+                      <td>
+                        <a href="skype:t.pongsupawat?call" title="Chat with me"
+                          >t.pongsupawat</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="col">LinkedIn</th>
                       <td>
                         <a
-                          href="https://github.com/rxseven/gyararii-api"
+                          href="https://www.linkedin.com/in/pongsupawat"
                           target="_blank"
-                          title="GitHub repository for Gyararī API"
-                          >https://github.com/rxseven/gyararii-api</a
+                          title="My work history on LinkedIn"
+                          >linkedin.com/in/pongsupawat</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="col">GitHub</th>
+                      <td>
+                        <a
+                          href="https://github.com/rxseven"
+                          target="_blank"
+                          title="My personal GitHub account"
+                          >github.com/rxseven</a
                         >
                       </td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="card-footer">Latest updated: March, 2019</div>
             </div>
-            <div class="card mb-3">
-              <div class="card-header">Tsūka</div>
-              <div class="card-body">
-                <p class="card-text">
-                  <strong>Tsūka</strong> is an extremely simple React app for
-                  converting currencies. It was built from scratch using only
-                  React and PropTypes. No complex state management, static type
-                  checking, and UI library needed.
-                </p>
-                <p class="card-text">
-                  <strong>Tsūka</strong> allows you to convert currencies with
-                  ease. It uses data from Fixer, the touchstone foreign exchange
-                  (Forex) rates compiled from leading market data contributors.
-                </p>
-                <table class="table table-list table-borderless table-end">
-                  <tbody>
-                    <tr>
-                      <th scope="col">Type</th>
-                      <td>Single Page Application & REST API</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Project size</th>
-                      <td>Extra small</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Time spent</th>
-                      <td>10 days</td>
-                    </tr>
-                    <tr class="rowspan">
-                      <th rowspan="2" scope="col">Technologies</th>
-                      <td>
-                        React, PropTypes, Syled Components, Sass, CSS modules
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Node, Express, TypeScript</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Live URL</th>
-                      <td>
-                        <a
-                          href="https://tsuuka.herokuapp.com"
-                          target="_blank"
-                          title="Tsūka"
-                          >https://tsuuka.herokuapp.com</a
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Component library</th>
-                      <td>
-                        <a
-                          href="https://tsuuka.netlify.com"
-                          target="_blank"
-                          title="Storybook for Tsūka"
-                          >https://tsuuka.netlify.com</a
-                        >
-                      </td>
-                    </tr>
-                    <tr class="rowspan">
-                      <th rowspan="2" scope="col">Resources</th>
-                      <td>
-                        <a
-                          href="https://github.com/rxseven/tsuuka"
-                          target="_blank"
-                          title="GitHub repository for Tsūka"
-                          >https://github.com/rxseven/tsuuka</a
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a
-                          href="https://github.com/rxseven/tsuuka-api"
-                          target="_blank"
-                          title="GitHub repository for Tsūka API"
-                          >https://github.com/rxseven/tsuuka-api</a
-                        >
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="card-footer">Latest updated: March, 2019</div>
-            </div>
-            <div class="card mb-3">
-              <div class="card-header">Onigiri</div>
-              <div class="card-body">
-                <p class="card-text">
-                  <strong>Onigiri</strong> is a React & Redux app for collecting
-                  and organizing surveys.
-                </p>
-                <p class="card-text">
-                  With <strong>Onigiri</strong>, you can create and analyze
-                  surveys right in your pocket or on your personal laptop —no
-                  special software required. You get results as they come in
-                  and, you can summarize survey results at a glance with graphs.
-                </p>
-                <table class="table table-list table-borderless table-end">
-                  <tbody>
-                    <tr>
-                      <th scope="col">Type</th>
-                      <td>Single Page Application & REST API</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Project size</th>
-                      <td>Small</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Time spent</th>
-                      <td>45 - 60 days</td>
-                    </tr>
-                    <tr class="rowspan">
-                      <th rowspan="2" scope="col">Technologies</th>
-                      <td>
-                        React, Redux, Immutable, Sass, CSS modules, Flow, Docker
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Node, Express, Passport, MongoDB</td>
-                    </tr>
-                    <tr>
-                      <th scope="col">Live URL</th>
-                      <td>
-                        <a
-                          href="https://onigiri-webapp.herokuapp.com"
-                          target="_blank"
-                          title="Onigiri"
-                          >https://onigiri-webapp.herokuapp.com</a
-                        >
-                      </td>
-                    </tr>
-                    <tr class="rowspan">
-                      <th rowspan="2" scope="col">Resources</th>
-                      <td>
-                        <a
-                          href="https://github.com/rxseven/onigiri-webapp"
-                          target="_blank"
-                          title="GitHub repository for Onigiri"
-                          >https://github.com/rxseven/onigiri-webapp</a
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a
-                          href="https://github.com/rxseven/onigiri-api"
-                          target="_blank"
-                          title="GitHub repository for Onigiri API"
-                          >https://github.com/rxseven/onigiri-api</a
-                        >
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="card-footer">Latest updated: November, 2018</div>
-            </div>
-            <div class="card">
-              <div class="card-header">Licenses</div>
-              <div class="card-body">
-                <p class="card-text">
-                  The contents of all demo projects themselves are licensed
-                  under the
-                  <a
-                    href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-                    target="_blank"
-                    title="CC BY-NC-ND 4.0"
-                    >Creative Commons Attribution-NonCommercial-NoDerivatives
-                    4.0 International license</a
-                  >, and the underlying source code is licensed under the
-                  <a
-                    href="https://www.gnu.org/licenses/agpl-3.0"
-                    target="_blank"
-                    title="GNU AGPLv3"
-                    >GNU AGPLv3 license</a
-                  >.
-                </p>
-              </div>
-            </div>
+            <!-- /Tabbed content -->
           </main>
         </div>
       </div>

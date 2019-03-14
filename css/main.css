@@ -13,8 +13,8 @@ body {
 
 .username {
   color: #007bff;
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.75rem;
 }
 
 .title {
@@ -27,16 +27,6 @@ body {
 .location {
   color: #6c757d;
   font-size: 0.875rem;
-}
-
-.contact {
-  list-style: none;
-  padding: 0;
-}
-
-.portfolio .headline {
-  font-size: 1rem;
-  margin-bottom: 1rem;
 }
 
 .table-list tbody tr,
@@ -67,6 +57,14 @@ body {
 
 .table-end {
   margin-bottom: 0;
+}
+
+.tab-headline {
+  font-size: 0.875rem;
+}
+
+.meta {
+  color: #6c757d;
 }
 
 @media (min-width: 480px) {
