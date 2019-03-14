@@ -2,9 +2,11 @@
 
 ## About
 
-Hi there,
+Hi there.
 
-My name is Theerawat Pongsupawat. I'm a motivated frontend developer from Chiang Mai, Thailand who passionate about creating elegant interactive UI and web apps with well-structured and designed using React.
+My name is Theerawat Pongsupawat. I'm a motivated frontend developer from [Chiang Mai, Thailand](https://en.wikipedia.org/wiki/Chiang_Mai) who passionate about creating elegant interactive UI and web apps with well-structured and designed using React.
+
+I usually write code on [GitHub](https://github.com/rxseven), mostly about [React](https://reactjs.org/). You can see my portfolios on [rxseven.github.io](https://rxseven.github.io/) or check out my work history on [LinkedIn](https://www.linkedin.com/in/pongsupawat).
 
 Thank you for stopping by! 😅
 
