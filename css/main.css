@@ -55,13 +55,16 @@ body {
   width: 135px;
 }
 
-.table-list.table-contact tbody tr th {
-  min-width: 75px;
-  width: 75px;
-}
-
 .table-end {
   margin-bottom: 0;
+}
+
+.tab-headline {
+  font-size: 0.875rem;
+}
+
+.meta {
+  color: #6c757d;
 }
 
 @media (min-width: 480px) {
