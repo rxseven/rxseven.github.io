@@ -34,11 +34,6 @@ body {
   padding: 0;
 }
 
-.portfolio .headline {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
 .table-list tbody tr,
 .table-list tbody tr th,
 .table-list tbody tr td {
