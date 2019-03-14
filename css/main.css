@@ -29,11 +29,6 @@ body {
   font-size: 0.875rem;
 }
 
-.contact {
-  list-style: none;
-  padding: 0;
-}
-
 .table-list tbody tr,
 .table-list tbody tr th,
 .table-list tbody tr td {
@@ -58,6 +53,11 @@ body {
   margin-bottom: 0.25rem;
   min-width: 135px;
   width: 135px;
+}
+
+.table-list.table-contact tbody tr th {
+  min-width: 75px;
+  width: 75px;
 }
 
 .table-end {
