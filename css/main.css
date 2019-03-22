@@ -63,6 +63,10 @@ body {
   font-size: 0.875rem;
 }
 
+.text-browser {
+  display: none;
+}
+
 .meta {
   color: #6c757d;
 }
@@ -81,6 +85,10 @@ body {
   .table-list tbody tr td {
     display: table-cell;
     padding: 0.2rem 0;
+  }
+
+  .text-browser {
+    display: inline;
   }
 }
 
