@@ -61,6 +61,11 @@ body {
 
 .tab-headline {
   font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.text-browser {
+  display: none;
 }
 
 .meta {
@@ -81,6 +86,10 @@ body {
   .table-list tbody tr td {
     display: table-cell;
     padding: 0.2rem 0;
+  }
+
+  .text-browser {
+    display: inline;
   }
 }
 

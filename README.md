@@ -8,6 +8,8 @@ My name is Theerawat Pongsupawat. I'm a motivated frontend developer from [Chian
 
 I usually write code on [GitHub](https://github.com/rxseven), mostly about [React](https://reactjs.org/). You can see my portfolios on [rxseven.github.io](https://rxseven.github.io/) or check out my work history on [LinkedIn](https://www.linkedin.com/in/pongsupawat).
 
+Any opportunity is always welcome to discuss.
+
 Thank you for stopping by! 😅
 
 ## Acknowledgements
